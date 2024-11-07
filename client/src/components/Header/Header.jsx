@@ -19,7 +19,8 @@ export default function Header() {
           </ul>
         </div>
       <div className="flex items-center space-x-3">
-          <a href="/login" className="px-4 py-2.5 text-sm rounded-2xl font-bold text-white border-2 border-[#3b92a3] bg-[#3b92a3] transition duration-300 hover:bg-transparent hover:text-[#344a4e]">Iniciar sesion</a>
+        <div className=""></div>
+          <a href="/login" className="md:w-full px-4 py-2.5 text-sm rounded-2xl font-bold text-white border-2 border-[#3b92a3] bg-[#3b92a3] transition duration-300 hover:bg-transparent hover:text-[#344a4e]">Iniciar sesion</a>
           <a href="/register" className="px-4 py-2.5 text-sm rounded-2xl font-bold text-white border-2 border-[#a1c4d4] bg-[#a1c4d4] transition duration-300 hover:bg-transparent hover:text-[##adccd2]">Registrarse</a>
           
           {/* Botón de menú con transición de cambio de ícono */}

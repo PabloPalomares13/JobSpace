@@ -19,15 +19,16 @@ const Home = () => {
 
     <div className="font-[sans-serif] py-20 px-4" style={{ background: 'linear-gradient(180deg, rgba(35,100,115,1) 0%, rgba(87,165,181,1) 50%, rgba(173,204,210,1) 100%)' }}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-white sm:text-4xl text-2xl font-bold text-center mb-16">Discover Our Exclusive Features</h2>
+        <h2 className="text-white sm:text-4xl text-2xl font-bold text-center mb-16">Descubre nuestras caracteristicas mas exclusivas</h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12 max-md:max-w-lg mx-auto">
           <div className="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-[#3b92a3] hover:shadow-xl transition duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-8 mb-6 inline-block" viewBox="0 0 32 32">
               <path d="M28.068 12h-.128a.934.934 0 0 1-.864-.6.924.924 0 0 1 .2-1.01l.091-.091a2.938 2.938 0 0 0 0-4.147l-1.511-1.51a2.935 2.935 0 0 0-4.146 0l-.091.091A.956.956 0 0 1 20 4.061v-.129A2.935 2.935 0 0 0 17.068 1h-2.136A2.935 2.935 0 0 0 12 3.932v.129a.956.956 0 0 1-1.614.668l-.086-.091a2.935 2.935 0 0 0-4.146 0l-1.516 1.51a2.938 2.938 0 0 0 0 4.147l.091.091a.935.935 0 0 1 .185 1.035.924.924 0 0 1-.854.579h-.128A2.935 2.935 0 0 0 1 14.932v2.136A2.935 2.935 0 0 0 3.932 20h.128a.934.934 0 0 1 .864.6.924.924 0 0 1-.2 1.01l-.091.091a2.938 2.938 0 0 0 0 4.147l1.51 1.509a2.934 2.934 0 0 0 4.147 0l.091-.091a.936.936 0 0 1 1.035-.185.922.922 0 0 1 .579.853v.129A2.935 2.935 0 0 0 14.932 31h2.136A2.935 2.935 0 0 0 20 28.068v-.129a.956.956 0 0 1 1.614-.668l.091.091a2.935 2.935 0 0 0 4.146 0l1.511-1.509a2.938 2.938 0 0 0 0-4.147l-.091-.091a.935.935 0 0 1-.185-1.035.924.924 0 0 1 .854-.58h.128A2.935 2.935 0 0 0 31 17.068v-2.136A2.935 2.935 0 0 0 28.068 12ZM29 17.068a.933.933 0 0 1-.932.932h-.128a2.956 2.956 0 0 0-2.083 5.028l.09.091a.934.934 0 0 1 0 1.319l-1.511 1.509a.932.932 0 0 1-1.318 0l-.09-.091A2.957 2.957 0 0 0 18 27.939v.129a.933.933 0 0 1-.932.932h-2.136a.933.933 0 0 1-.932-.932v-.129a2.951 2.951 0 0 0-5.028-2.082l-.091.091a.934.934 0 0 1-1.318 0l-1.51-1.509a.934.934 0 0 1 0-1.319l.091-.091A2.956 2.956 0 0 0 4.06 18h-.128A.933.933 0 0 1 3 17.068v-2.136A.933.933 0 0 1 3.932 14h.128a2.956 2.956 0 0 0 2.083-5.028l-.09-.091a.933.933 0 0 1 0-1.318l1.51-1.511a.932.932 0 0 1 1.318 0l.09.091A2.957 2.957 0 0 0 14 4.061v-.129A.933.933 0 0 1 14.932 3h2.136a.933.933 0 0 1 .932.932v.129a2.956 2.956 0 0 0 5.028 2.082l.091-.091a.932.932 0 0 1 1.318 0l1.51 1.511a.933.933 0 0 1 0 1.318l-.091.091A2.956 2.956 0 0 0 27.94 14h.128a.933.933 0 0 1 .932.932Z" data-original="#000000" />
               <path d="M16 9a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7Zm0 12a5 5 0 1 1 5-5 5.006 5.006 0 0 1-5 5Z" data-original="#000000" />
             </svg>
-            <h3 className="text-xl font-semibold mb-3">Customization</h3>
-            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Tailor our product to suit your needs Tailor our product to suit your needs.</p>
+            <h3 className="text-xl font-semibold mb-3">Personalizacion</h3>
+            <p className="text-gray-300 group-hover:text-gray-500 text-sm">
+            Adaptamos nuestro producto a sus necesidades para crear experiencias unicas</p>
           </div>
 
           <div className="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-[#3b92a3] hover:shadow-xl transition duration-300">
@@ -42,16 +43,17 @@ const Home = () => {
                 <path d="M178 271.894 233.894 216 334 316.105" data-original="#000000" />
               </g>
             </svg>
-            <h3 className="text-xl font-semibold mb-3">Security</h3>
-            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Your data is protected by the latest security measures.</p>
+            <h3 className="text-xl font-semibold mb-3">Seguridad</h3>
+            <p className="text-gray-300 group-hover:text-gray-500 text-sm">
+            Tus datos están protegidos por las últimas medidas de seguridad.</p>
           </div>
 
           <div className="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-[#3b92a3] hover:shadow-xl transition duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 mb-6 inline-block" viewBox="0 0 512.001 512.001">
               <path d="M271.029 0c-33.091 0-61 27.909-61 61s27.909 61 61 61 60-27.909 60-61-26.909-61-60-61zm66.592 122c-16.485 18.279-40.096 30-66.592 30-26.496 0-51.107-11.721-67.592-30-14.392 15.959-23.408 36.866-23.408 60v15c0 8.291 6.709 15 15 15h151c8.291 0 15-6.709 15-15v-15c0-23.134-9.016-44.041-23.408-60zM144.946 460.404 68.505 307.149c-7.381-14.799-25.345-20.834-40.162-13.493l-19.979 9.897c-7.439 3.689-10.466 12.73-6.753 20.156l90 180c3.701 7.423 12.704 10.377 20.083 6.738l19.722-9.771c14.875-7.368 20.938-25.417 13.53-40.272zM499.73 247.7c-12.301-9-29.401-7.2-39.6 3.9l-82 100.8c-5.7 6-16.5 9.6-22.2 9.6h-69.901c-8.401 0-15-6.599-15-15s6.599-15 15-15h60c16.5 0 30-13.5 30-30s-13.5-30-30-30h-78.6c-7.476 0-11.204-4.741-17.1-9.901-23.209-20.885-57.949-30.947-93.119-22.795-19.528 4.526-32.697 12.415-46.053 22.993l-.445-.361-21.696 19.094L174.28 452h171.749c28.2 0 55.201-13.5 72.001-36l87.999-126c9.9-13.201 7.2-32.399-6.299-42.3z" data-original="#000000" />
             </svg>
-            <h3 className="text-xl font-semibold mb-3">Support</h3>
-            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Tailor our product to suit your needs 24/7 customer support for all your inquiries.</p>
+            <h3 className="text-xl font-semibold mb-3">Soporte</h3>
+            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Adaptamos nuestro producto a sus necesidades. Atención al cliente 24/7 para todas sus consultas..</p>
           </div>
 
           <div className="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-[#3b92a3] hover:shadow-xl transition duration-300">
@@ -62,8 +64,8 @@ const Home = () => {
                 <path d="M3.095 3.095C4.429 1.76 6.426 1.25 9 1.25h6c2.574 0 4.57.51 5.905 1.845C22.24 4.429 22.75 6.426 22.75 9v6c0 2.574-.51 4.57-1.845 5.905C19.571 22.24 17.574 22.75 15 22.75H9c-2.574 0-4.57-.51-5.905-1.845C1.76 19.571 1.25 17.574 1.25 15V9c0-2.574.51-4.57 1.845-5.905zm1.06 1.06C3.24 5.071 2.75 6.574 2.75 9v6c0 2.426.49 3.93 1.405 4.845.916.915 2.419 1.405 4.845 1.405h6c2.426 0 3.93-.49 4.845-1.405.915-.916 1.405-2.419 1.405-4.845V9c0-2.426-.49-3.93-1.405-4.845C18.929 3.24 17.426 2.75 15 2.75H9c-2.426 0-3.93.49-4.845 1.405z" data-original="#000000" />
               </g>
             </svg>
-            <h3 className="text-xl font-semibold mb-3">Performance</h3>
-            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Experience blazing-fast performance with our product.</p>
+            <h3 className="text-xl font-semibold mb-3">Rendimiento</h3>
+            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Experimente un rendimiento increíblemente rápido en nuestra plataforma.</p>
           </div>
 
           <div className="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-[#3b92a3] hover:shadow-xl transition duration-300">
@@ -76,8 +78,8 @@ const Home = () => {
               <path d="M10.327 499.947a10.33 10.33 0 0 1-7.376-3.104 10.312 10.312 0 0 1-2.929-7.902l4.401-66.85c.372-5.697 5.191-10.036 10.986-9.633 5.692.377 10.005 5.294 9.628 10.986l-3.641 55.332 55.224-2.515c5.645-.191 10.531 4.153 10.79 9.85.258 5.697-4.153 10.526-9.85 10.79l-66.763 3.037c-.155.004-.31.009-.47.009zm465.639-13.01-57.708-57.708c-4.034-4.034-4.034-10.573 0-14.607s10.573-4.034 14.607 0l57.708 57.708c4.034 4.034 3.962 10.5 0 14.607-3.817 3.951-10.062 3.951-14.607 0z" data-original="#000000" />
               <path d="M494.359 499.947c-.155 0-.315-.005-.47-.01l-66.757-3.042c-5.702-.263-10.108-5.088-9.85-10.79.263-5.702 5.113-9.984 10.79-9.85l55.219 2.515-3.641-55.332c-.372-5.692 3.941-10.609 9.633-10.986 5.625-.398 10.609 3.946 10.986 9.633l4.401 66.85a10.33 10.33 0 0 1-2.929 7.902 10.323 10.323 0 0 1-7.382 3.11z" data-original="#000000" />
             </svg>
-            <h3 className="text-xl font-semibold mb-3">Global Reach</h3>
-            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Tailor our product to suit your needs Expand your reach with our global network.</p>
+            <h3 className="text-xl font-semibold mb-3">Mayor alcance</h3>
+            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Adaptamos nuestro producto para impulsar su vida. Amplíe su alcance con nuestra red global.</p>
           </div>
 
           <div className="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-[#3b92a3] hover:shadow-xl transition duration-300">
@@ -91,8 +93,8 @@ const Home = () => {
                 <path d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30" data-original="#000000" />
               </g>
             </svg>
-            <h3 className="text-xl font-semibold mb-3">Communication</h3>
-            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Tailor our product to suit your needs Seamless communication for your team.</p>
+            <h3 className="text-xl font-semibold mb-3">Comunicacion</h3>
+            <p className="text-gray-300 group-hover:text-gray-500 text-sm">Mejora continua para que puedas tener una comunicacion constate con tus clientes</p>
           </div>
         </div>
       </div>
@@ -101,8 +103,8 @@ const Home = () => {
 
     <div class="my-44 font-[sans-serif] max-w-6xl mx-auto">
       <div class="max-w-2xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-gray-800">What our happy client say</h2>
-        <p class="text-sm mt-4 leading-relaxed text-gray-800">Veniam proident aute magna anim excepteur et ex consectetur velit ullamco veniam minim aute sit. Elit occaecat officia et laboris Lorem minim. Officia do aliqua adipisicing ullamco in</p>
+        <h2 class="text-3xl font-extrabold text-gray-800">Lo que nuestros clientes safisfechos dicen de nosotros</h2>
+        <p class="text-sm mt-4 leading-relaxed text-gray-800">Hemos tenido en cuenta el feedback de nuestros usuarios y colaboradores para hacer que esta plataforma este optimizada para facilitar el proceso de ofrecer servicios de nuestros usuarios</p>
       </div>
 
       <div class="grid md:grid-cols-3 gap-6 max-md:gap-12 max-md:justify-center text-center max-md:max-w-lg mx-auto mt-16">
@@ -110,13 +112,13 @@ const Home = () => {
           <div class="flex flex-col items-center">
             <img src="https://readymadeui.com/team-2.webp" class="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
             <div class="mt-4">
-              <h4 class="text-sm font-extrabold text-gray-800">John Doe</h4>
-              <p class="text-xs text-blue-600 font-bold mt-1">CEO, Company</p>
+              <h4 class="text-sm font-extrabold text-gray-800">Daniel Chia</h4>
+              <p class="text-xs text-blue-600 font-bold mt-1">Electricista</p>
             </div>
           </div>
 
           <div class="mt-4">
-            <p class="text-sm leading-relaxed text-gray-800">The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.</p>
+            <p class="text-sm leading-relaxed text-gray-800"> “La plataforma es excelente. Logré conectarme con varios clientes de mi zona rápidamente. Fácil de usar y muy efectiva para promocionar mis servicios. ¡Totalmente recomendada!” </p>
           </div>
 
           <div class="flex justify-center space-x-1 mt-4">
@@ -152,13 +154,13 @@ const Home = () => {
           <div class="flex flex-col items-center">
             <img src="https://readymadeui.com/team-3.webp" class="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
             <div class="mt-4">
-              <h4 class="text-sm font-extrabold text-gray-800">Mark Adair</h4>
-              <p class="text-xs text-blue-600 font-bold mt-1">CEO, Company</p>
+              <h4 class="text-sm font-extrabold text-gray-800">Camila Guzman</h4>
+              <p class="text-xs text-blue-600 font-bold mt-1">Diseñadora Grafica</p>
             </div>
           </div>
 
           <div class="mt-4">
-            <p class="text-sm leading-relaxed text-gray-800">The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.</p>
+            <p class="text-sm leading-relaxed text-gray-800"> “Gracias a esta plataforma, encontré clientes interesados en mis servicios sin esfuerzo. Es intuitiva y facilita el proceso de conectar con personas cerca de mí. ¡Me encantó!” </p>
           </div>
 
           <div class="flex justify-center space-x-1 mt-4">
@@ -194,13 +196,13 @@ const Home = () => {
           <div class="flex flex-col items-center">
             <img src="https://readymadeui.com/team-4.webp" class="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
             <div class="mt-4">
-              <h4 class="text-sm font-extrabold text-gray-800">Simon Konecki</h4>
-              <p class="text-xs text-blue-600 font-bold mt-1">CEO, Company</p>
+              <h4 class="text-sm font-extrabold text-gray-800">Xiomara Garcia</h4>
+              <p class="text-xs text-blue-600 font-bold mt-1">Costurera</p>
             </div>
           </div>
 
           <div class="mt-4">
-            <p class="text-sm leading-relaxed text-gray-800">The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.</p>
+            <p class="text-sm leading-relaxed text-gray-800"> “La plataforma me ayudó a destacar mis propios servicios y llegar a más personas en mi área. Gracias a ella, conseguí clientes interesados en lo que ofrezco. ¡Muy satisfecha!” </p>
           </div>
 
           <div class="flex justify-center space-x-1 mt-4">
@@ -233,6 +235,85 @@ const Home = () => {
         </div>
       </div>
     </div>
+
+    <div class="mt-6 mb-44">
+            <div class="grid sm:grid-cols-2 items-start gap-14 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md font-[sans-serif]">
+                <div>
+                    <h1 class="text-gray-800 text-3xl font-extrabold">Contactanos</h1>
+                    <p class="text-sm text-gray-500 mt-4">¿Tienes alguna gran idea o iniciativa que desarrollar y necesitas ayuda? Entonces comunícate con nosotros, nos encantaría conocer tu proyecto y brindarte ayuda.</p>
+
+                    <div class="mt-12">
+                        <h2 class="text-gray-800 text-base font-bold">Email</h2>
+                        <ul class="mt-4">
+                            <li class="flex items-center">
+                                <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
+                                        viewBox="0 0 479.058 479.058">
+                                        <path
+                                            d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                                            data-original="#000000" />
+                                    </svg>
+                                </div>
+                                <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-4">
+                                    <small class="block">Email</small>
+                                    <strong>Pablopalomedi@gmail.com</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-12">
+                        <h2 class="text-gray-800 text-base font-bold">Socials</h2>
+
+                        <ul class="flex mt-4 space-x-4">
+                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                <a href="javascript:void(0)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M6.812 13.937H9.33v9.312c0 .414.335.75.75.75l4.007.001a.75.75 0 0 0 .75-.75v-9.312h2.387a.75.75 0 0 0 .744-.657l.498-4a.75.75 0 0 0-.744-.843h-2.885c.113-2.471-.435-3.202 1.172-3.202 1.088-.13 2.804.421 2.804-.75V.909a.75.75 0 0 0-.648-.743A26.926 26.926 0 0 0 15.071 0c-7.01 0-5.567 7.772-5.74 8.437H6.812a.75.75 0 0 0-.75.75v4c0 .414.336.75.75.75zm.75-3.999h2.518a.75.75 0 0 0 .75-.75V6.037c0-2.883 1.545-4.536 4.24-4.536.878 0 1.686.043 2.242.087v2.149c-.402.205-3.976-.884-3.976 2.697v2.755c0 .414.336.75.75.75h2.786l-.312 2.5h-2.474a.75.75 0 0 0-.75.75V22.5h-2.505v-9.312a.75.75 0 0 0-.75-.75H7.562z"
+                                            data-original="#000000" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                <a href="javascript:void(0)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
+                                        viewBox="0 0 511 512">
+                                        <path
+                                            d="M111.898 160.664H15.5c-8.285 0-15 6.719-15 15V497c0 8.285 6.715 15 15 15h96.398c8.286 0 15-6.715 15-15V175.664c0-8.281-6.714-15-15-15zM96.898 482H30.5V190.664h66.398zM63.703 0C28.852 0 .5 28.352.5 63.195c0 34.852 28.352 63.2 63.203 63.2 34.848 0 63.195-28.352 63.195-63.2C126.898 28.352 98.551 0 63.703 0zm0 96.395c-18.308 0-33.203-14.891-33.203-33.2C30.5 44.891 45.395 30 63.703 30c18.305 0 33.195 14.89 33.195 33.195 0 18.309-14.89 33.2-33.195 33.2zm289.207 62.148c-22.8 0-45.273 5.496-65.398 15.777-.684-7.652-7.11-13.656-14.942-13.656h-96.406c-8.281 0-15 6.719-15 15V497c0 8.285 6.719 15 15 15h96.406c8.285 0 15-6.715 15-15V320.266c0-22.735 18.5-41.23 41.235-41.23 22.734 0 41.226 18.495 41.226 41.23V497c0 8.285 6.719 15 15 15h96.403c8.285 0 15-6.715 15-15V302.066c0-79.14-64.383-143.523-143.524-143.523zM466.434 482h-66.399V320.266c0-39.278-31.953-71.23-71.226-71.23-39.282 0-71.239 31.952-71.239 71.23V482h-66.402V190.664h66.402v11.082c0 5.77 3.309 11.027 8.512 13.524a15.01 15.01 0 0 0 15.875-1.82c20.313-16.294 44.852-24.907 70.953-24.907 62.598 0 113.524 50.926 113.524 113.523zm0 0"
+                                            data-original="#000000" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                <a href="javascript:void(0)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 9.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm0-1.8a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm5.85-.225a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0ZM12 4.8c-2.227 0-2.59.006-3.626.052-.706.034-1.18.128-1.618.299a2.59 2.59 0 0 0-.972.633 2.601 2.601 0 0 0-.634.972c-.17.44-.265.913-.298 1.618C4.805 9.367 4.8 9.714 4.8 12c0 2.227.006 2.59.052 3.626.034.705.128 1.18.298 1.617.153.392.333.674.632.972.303.303.585.484.972.633.445.172.918.267 1.62.3.993.047 1.34.052 3.626.052 2.227 0 2.59-.006 3.626-.052.704-.034 1.178-.128 1.617-.298.39-.152.674-.333.972-.632.304-.303.485-.585.634-.972.171-.444.266-.918.299-1.62.047-.993.052-1.34.052-3.626 0-2.227-.006-2.59-.052-3.626-.034-.704-.128-1.18-.299-1.618a2.619 2.619 0 0 0-.633-.972 2.595 2.595 0 0 0-.972-.634c-.44-.17-.914-.265-1.618-.298-.993-.047-1.34-.052-3.626-.052ZM12 3c2.445 0 2.75.009 3.71.054.958.045 1.61.195 2.185.419A4.388 4.388 0 0 1 19.49 4.51c.457.45.812.994 1.038 1.595.222.573.373 1.227.418 2.185.042.96.054 1.265.054 3.71 0 2.445-.009 2.75-.054 3.71-.045.958-.196 1.61-.419 2.185a4.395 4.395 0 0 1-1.037 1.595 4.44 4.44 0 0 1-1.595 1.038c-.573.222-1.227.373-2.185.418-.96.042-1.265.054-3.71.054-2.445 0-2.75-.009-3.71-.054-.958-.045-1.61-.196-2.185-.419A4.402 4.402 0 0 1 4.51 19.49a4.414 4.414 0 0 1-1.037-1.595c-.224-.573-.374-1.227-.419-2.185C3.012 14.75 3 14.445 3 12c0-2.445.009-2.75.054-3.71s.195-1.61.419-2.185A4.392 4.392 0 0 1 4.51 4.51c.45-.458.994-.812 1.595-1.037.574-.224 1.226-.374 2.185-.419C9.25 3.012 9.555 3 12 3Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form class="ml-auo space-y-4">
+                    <input type='text' placeholder='Name'
+                        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+                    <input type='email' placeholder='Email'
+                        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+                    <input type='text' placeholder='Subject'
+                        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+                    <textarea placeholder='Message' rows="6"
+                        class="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-blue-500"></textarea>
+                    <button type='button'
+                        class="text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6">Send</button>
+                </form>
+            </div>
+        </div>
     </>
     )
 }
