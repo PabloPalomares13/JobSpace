@@ -1,6 +1,8 @@
-import React from 'react'
+import axios from 'axios'
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 const Home = () => {
-
+  
     return (
     <>
     <div className="bg-bannerImg bg-repeat bg-cover bg-bottom">

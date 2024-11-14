@@ -5,7 +5,7 @@ import SimpleLayout from './Layout/SimpleLayout';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
-import Contact from './pages/Contact'
+import Profile from './pages/Profile'
 
 function App() {
 
@@ -15,12 +15,14 @@ function App() {
         <Route element={<MainLayout/>}>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
 
         <Route element={<SimpleLayout />}>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          
+          
         </Route>
       </Routes>
     </Router>
