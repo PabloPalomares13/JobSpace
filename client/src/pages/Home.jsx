@@ -5,7 +5,7 @@ const Home = () => {
   
     return (
     <>
-    <div className="bg-bannerImg bg-repeat bg-cover bg-bottom">
+    <div id="inicio" className="bg-bannerImg bg-repeat bg-cover bg-bottom">
         <div className="w-full h-screen flex items-start justify-center bg-blackOverLay px-4 pt-36">
             <div className="text-center max-w-4xl mx-auto mt-[120px]">
                 <h1 className="text-4xl sm:text-6xl lg:text-[60px] tracking-wide text-white mb-7 pb-5">
@@ -14,12 +14,17 @@ const Home = () => {
                 <p className="text-lg text-white mt-0 mx-auto ">
                     Encuentra el aliado independiente perfecto para impulsar tus proyectos y acompañar tu crecimiento. A su lado, podrás dar forma a tus ideas y contar con el respaldo necesario para alcanzar tus metas.
                 </p>
+                <a href="/offers" class=" mt-36 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
+                  <span class="py-5 px-20 text-xl relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Ver ofertas disponibles
+                  </span>
+                </a>
             </div>
         </div>
     </div>
 
 
-    <div className="font-[sans-serif] py-20 px-4" style={{ background: 'linear-gradient(180deg, rgba(35,100,115,1) 0%, rgba(87,165,181,1) 50%, rgba(173,204,210,1) 100%)' }}>
+    <div id="caracteristicas" className="font-[sans-serif] py-20 px-4 lg:h-screen lg:pt-44" style={{ background: 'linear-gradient(180deg, rgba(35,100,115,1) 0%, rgba(87,165,181,1) 50%, rgba(173,204,210,1) 100%)' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-white sm:text-4xl text-2xl font-bold text-center mb-16">Descubre nuestras caracteristicas mas exclusivas</h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12 max-md:max-w-lg mx-auto">
@@ -103,48 +108,48 @@ const Home = () => {
     </div>
 
 
-    <div class="my-44 font-[sans-serif] max-w-6xl mx-auto">
-      <div class="max-w-2xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-gray-800">Lo que nuestros clientes safisfechos dicen de nosotros</h2>
-        <p class="text-sm mt-4 leading-relaxed text-gray-800">Hemos tenido en cuenta el feedback de nuestros usuarios y colaboradores para hacer que esta plataforma este optimizada para facilitar el proceso de ofrecer servicios de nuestros usuarios</p>
+    <div id="testimonios"className="my-44 font-[sans-serif] max-w-6xl mx-auto lg:h-screen lg:pt-44">
+      <div className="max-w-2xl mx-auto text-center">
+        <h2 className="text-3xl font-extrabold text-gray-800">Lo que nuestros clientes safisfechos dicen de nosotros</h2>
+        <p className="text-sm mt-4 leading-relaxed text-gray-800">Hemos tenido en cuenta el feedback de nuestros usuarios y colaboradores para hacer que esta plataforma este optimizada para facilitar el proceso de ofrecer servicios de nuestros usuarios</p>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6 max-md:gap-12 max-md:justify-center text-center max-md:max-w-lg mx-auto mt-16">
-        <div class="rounded-md">
-          <div class="flex flex-col items-center">
-            <img src="https://readymadeui.com/team-2.webp" class="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
-            <div class="mt-4">
-              <h4 class="text-sm font-extrabold text-gray-800">Daniel Chia</h4>
-              <p class="text-xs text-blue-600 font-bold mt-1">Electricista</p>
+      <div className="grid md:grid-cols-3 gap-6 max-md:gap-12 max-md:justify-center text-center max-md:max-w-lg mx-auto mt-16">
+        <div className="rounded-md">
+          <div className="flex flex-col items-center">
+            <img src="https://readymadeui.com/team-2.webp" className="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
+            <div className="mt-4">
+              <h4 className="text-sm font-extrabold text-gray-800">Daniel Chia</h4>
+              <p className="text-xs text-blue-600 font-bold mt-1">Electricista</p>
             </div>
           </div>
 
-          <div class="mt-4">
-            <p class="text-sm leading-relaxed text-gray-800"> “La plataforma es excelente. Logré conectarme con varios clientes de mi zona rápidamente. Fácil de usar y muy efectiva para promocionar mis servicios. ¡Totalmente recomendada!” </p>
+          <div className="mt-4">
+            <p className="text-sm leading-relaxed text-gray-800"> “La plataforma es excelente. Logré conectarme con varios clientes de mi zona rápidamente. Fácil de usar y muy efectiva para promocionar mis servicios. ¡Totalmente recomendada!” </p>
           </div>
 
-          <div class="flex justify-center space-x-1 mt-4">
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+          <div className="flex justify-center space-x-1 mt-4">
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
@@ -152,41 +157,41 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="rounded-md">
-          <div class="flex flex-col items-center">
-            <img src="https://readymadeui.com/team-3.webp" class="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
-            <div class="mt-4">
-              <h4 class="text-sm font-extrabold text-gray-800">Camila Guzman</h4>
-              <p class="text-xs text-blue-600 font-bold mt-1">Diseñadora Grafica</p>
+        <div className="rounded-md">
+          <div className="flex flex-col items-center">
+            <img src="https://readymadeui.com/team-3.webp" className="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
+            <div className="mt-4">
+              <h4 className="text-sm font-extrabold text-gray-800">Camila Guzman</h4>
+              <p className="text-xs text-blue-600 font-bold mt-1">Diseñadora Grafica</p>
             </div>
           </div>
 
-          <div class="mt-4">
-            <p class="text-sm leading-relaxed text-gray-800"> “Gracias a esta plataforma, encontré clientes interesados en mis servicios sin esfuerzo. Es intuitiva y facilita el proceso de conectar con personas cerca de mí. ¡Me encantó!” </p>
+          <div className="mt-4">
+            <p className="text-sm leading-relaxed text-gray-800"> “Gracias a esta plataforma, encontré clientes interesados en mis servicios sin esfuerzo. Es intuitiva y facilita el proceso de conectar con personas cerca de mí. ¡Me encantó!” </p>
           </div>
 
-          <div class="flex justify-center space-x-1 mt-4">
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+          <div className="flex justify-center space-x-1 mt-4">
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
@@ -194,41 +199,41 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="rounded-md">
-          <div class="flex flex-col items-center">
-            <img src="https://readymadeui.com/team-4.webp" class="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
-            <div class="mt-4">
-              <h4 class="text-sm font-extrabold text-gray-800">Xiomara Garcia</h4>
-              <p class="text-xs text-blue-600 font-bold mt-1">Costurera</p>
+        <div className="rounded-md">
+          <div className="flex flex-col items-center">
+            <img src="https://readymadeui.com/team-4.webp" className="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
+            <div className="mt-4">
+              <h4 className="text-sm font-extrabold text-gray-800">Xiomara Garcia</h4>
+              <p className="text-xs text-blue-600 font-bold mt-1">Costurera</p>
             </div>
           </div>
 
-          <div class="mt-4">
-            <p class="text-sm leading-relaxed text-gray-800"> “La plataforma me ayudó a destacar mis propios servicios y llegar a más personas en mi área. Gracias a ella, conseguí clientes interesados en lo que ofrezco. ¡Muy satisfecha!” </p>
+          <div className="mt-4">
+            <p className="text-sm leading-relaxed text-gray-800"> “La plataforma me ayudó a destacar mis propios servicios y llegar a más personas en mi área. Gracias a ella, conseguí clientes interesados en lo que ofrezco. ¡Muy satisfecha!” </p>
           </div>
 
-          <div class="flex justify-center space-x-1 mt-4">
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+          <div className="flex justify-center space-x-1 mt-4">
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#007bff]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
             </svg>
-            <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+            <svg className="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
@@ -237,18 +242,95 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <div id='ventajas' Nameclass="font-sans p-4 lg:h-screen lg:pt-44">
+  <div className="md:max-w-5xl max-w-lg mx-auto lg:pt-44">
+    <div className="grid md:grid-cols-2 gap-6">
+      <div className="max-w-sm">
+        <h2 className="text-gray-600 text-3xl font-semibold mb-4 leading-10">
+          Conecta con Clientes Potenciales,<br /> Expande tu Negocio
+        </h2>
+      </div>
+      <div className="text-left">
+        <p className="mb-4 text-sm text-gray-500">
+          Nuestra plataforma está diseñada para conectar a profesionales como tú con clientes que buscan servicios de calidad. Encuentra oportunidades que se alineen con tus habilidades y lleva tu negocio al siguiente nivel.
+        </p>
+        <p className="text-sm text-gray-500">
+          Publica tus servicios, gestiona clientes y obtén reseñas positivas que impulsen tu reputación. Aquí, destacamos tu talento y te ayudamos a convertirlo en éxito.
+        </p>
+        <button type="button" className="mt-6 px-5 py-2.5 rounded-md text-white text-sm tracking-wider font-medium border border-current outline-none bg-blue-700 hover:bg-blue-800 active:bg-blue-700">
+          Empezar ahora
+        </button>
+      </div>
+    </div>
 
-    <div class="mt-6 mb-44">
-            <div class="grid sm:grid-cols-2 items-start gap-14 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md font-[sans-serif]">
+    <div  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-16 ">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" viewBox="0 0 512 512">
+        <g fill-rule="evenodd" clip-rule="evenodd">
+                <path fill="#ff405c" d="M255.997.007c-141.156 0-256 114.844-256 256 0 141.16 114.844 256 256 256 141.16 0 256.004-114.84 256.004-256C512 114.851 397.157.007 255.997.007z" data-original="#ff405c" />
+                <path fill="#d01273" d="M269.845 511.629c110.122-5.9 201.974-81.716 231.869-183.747l-99.461-99.461a12.002 12.002 0 0 0-1.223-1.135l-137.504-110.9a11.994 11.994 0 0 0-15.061 0l-137.5 110.9a12.01 12.01 0 0 0-3.788 13.337 12.008 12.008 0 0 0 3.109 4.757l39.179 39.186v101.722a11.97 11.97 0 0 0 3.796 8.758z" data-original="#d01273" />
+                <path fill="#fff" d="M350.528 224.627c-6.632 0-11.999 5.372-11.999 11.999V374.29h-35.472v-93.423c0-6.627-5.367-11.999-11.999-11.999H220.94c-6.631 0-11.999 5.372-11.999 11.999v93.423h-35.472V236.626c0-6.627-5.372-11.999-11.999-11.999h-8.983l103.509-83.484 103.514 83.484zm50.503 2.659-137.504-110.9a11.992 11.992 0 0 0-15.06 0l-137.5 110.9a12.01 12.01 0 0 0-3.788 13.337 12.008 12.008 0 0 0 11.318 8.006h30.97v137.66c0 6.627 5.372 12.003 12.003 12.003h59.469c6.619 0 11.999-5.376 11.999-12.003v-93.423h46.12v93.423c0 6.627 5.38 12.003 11.999 12.003h59.47c6.631 0 12.003-5.376 12.003-12.003v-137.66h30.97c5.088 0 9.619-3.209 11.318-8.006a12.009 12.009 0 0 0-3.787-13.337z" data-original="#ffffff" />
+              </g>
+        </svg>
+        <div className="mt-4">
+          <h3 className="text-lg font-bold text-gray-600 mb-2">Visibilidad Garantizada</h3>
+          <p className="text-gray-500 text-sm">
+            Tu perfil y servicios estarán visibles para cientos de potenciales clientes que necesitan exactamente lo que ofreces.
+          </p>
+        </div>
+      </div>
+Name
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" viewBox="0 0 24 24">
+        <g data-name="Layer 2">
+                <path fill="#54d6c0" d="M23 5.675h-3.3a.825.825 0 0 0-.825.825v14.85a2.475 2.475 0 0 0 4.95 0V6.5A.825.825 0 0 0 23 5.675z" data-original="#54d6c0" />
+                <path fill="#1f95f8" d="M21.735 23.726a.744.744 0 0 1-.385.099H4.3A4.126 4.126 0 0 1 .175 19.7V2.1A1.934 1.934 0 0 1 2.1.175h16.5A1.934 1.934 0 0 1 20.525 2.1v19.943a1.771 1.771 0 0 0 1.21 1.683z" data-original="#1f95f8" />
+                <g fill="#fff" transform="matrix(1.1 0 0 1.1 -1.2 -1.2)">
+                  <rect width="5.5" height="5.5" x="4.25" y="4.75" data-original="#ffffff" rx=".75" />
+                  <path d="M16 6.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5zm0 3h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5zm0 4H5a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 0 1.5zm0 3H5a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 0 1.5zm0 3H5a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 0 1.5z" data-original="#ffffff" />
+                </g>
+              </g>
+        </svg>
+        <div className="mt-4">
+          <h3 className="text-lg font-bold text-gray-600 mb-2">Gestión Eficiente</h3>
+          <p className="text-gray-500 text-sm">
+            Utiliza herramientas avanzadas para organizar tus ofertas, responder consultas y gestionar tus reservas de manera eficiente.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" viewBox="0 0 512 512">
+        <g data-name="Layer 2">
+                <path fill="#54d6c0" d="M23 5.675h-3.3a.825.825 0 0 0-.825.825v14.85a2.475 2.475 0 0 0 4.95 0V6.5A.825.825 0 0 0 23 5.675z" data-original="#54d6c0" />
+                <path fill="#1f95f8" d="M21.735 23.726a.744.744 0 0 1-.385.099H4.3A4.126 4.126 0 0 1 .175 19.7V2.1A1.934 1.934 0 0 1 2.1.175h16.5A1.934 1.934 0 0 1 20.525 2.1v19.943a1.771 1.771 0 0 0 1.21 1.683z" data-original="#1f95f8" />
+                <g fill="#fff" transform="matrix(1.1 0 0 1.1 -1.2 -1.2)">
+                  <rect width="5.5" height="5.5" x="4.25" y="4.75" data-original="#ffffff" rx=".75" />
+                  <path d="M16 6.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5zm0 3h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5zm0 4H5a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 0 1.5zm0 3H5a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 0 1.5zm0 3H5a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 0 1.5z" data-original="#ffffff" />
+                </g>
+              </g>
+        </svg>
+        <div className="mt-4">
+          <h3 className="text-lg font-bold text-gray-600 mb-2">Reseñas que Importan</h3>
+          <p className="text-gray-500 text-sm">
+            Construye confianza con tus clientes al mostrar las opiniones positivas que otros han dejado sobre tus servicios.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div id="contacto"className="mt-6 mb-44 lg:h-screen lg:pt-44">
+            <div className="grid sm:grid-cols-2 items-start gap-14 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md font-[sans-serif]">
                 <div>
-                    <h1 class="text-gray-800 text-3xl font-extrabold">Contactanos</h1>
-                    <p class="text-sm text-gray-500 mt-4">¿Tienes alguna gran idea o iniciativa que desarrollar y necesitas ayuda? Entonces comunícate con nosotros, nos encantaría conocer tu proyecto y brindarte ayuda.</p>
+                    <h1 className="text-gray-800 text-3xl font-extrabold">Contactanos</h1>
+                    <p className="text-sm text-gray-500 mt-4">¿Tienes alguna gran idea o iniciativa que desarrollar y necesitas ayuda? Entonces comunícate con nosotros, nos encantaría conocer tu proyecto y brindarte ayuda.</p>
 
-                    <div class="mt-12">
-                        <h2 class="text-gray-800 text-base font-bold">Email</h2>
-                        <ul class="mt-4">
-                            <li class="flex items-center">
-                                <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <div className="mt-12">
+                        <h2 className="text-gray-800 text-base font-bold">Email</h2>
+                        <ul className="mt-4">
+                            <li className="flex items-center">
+                                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 479.058 479.058">
                                         <path
@@ -257,18 +339,18 @@ const Home = () => {
                                     </svg>
                                 </div>
                                 <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-4">
-                                    <small class="block">Email</small>
+                                    <small className="block">Email</small>
                                     <strong>Pablopalomedi@gmail.com</strong>
                                 </a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="mt-12">
-                        <h2 class="text-gray-800 text-base font-bold">Socials</h2>
+                    <div className="mt-12">
+                        <h2 className="text-gray-800 text-base font-bold">Socials</h2>
 
-                        <ul class="flex mt-4 space-x-4">
-                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <ul className="flex mt-4 space-x-4">
+                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 24 24">
@@ -278,7 +360,7 @@ const Home = () => {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 511 512">
@@ -288,7 +370,7 @@ const Home = () => {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
                                         viewBox="0 0 24 24">
@@ -302,17 +384,17 @@ const Home = () => {
                     </div>
                 </div>
 
-                <form class="ml-auo space-y-4">
+                <form className="ml-auo space-y-4">
                     <input type='text' placeholder='Name'
-                        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+                        className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
                     <input type='email' placeholder='Email'
-                        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+                        className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
                     <input type='text' placeholder='Subject'
-                        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+                        className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
                     <textarea placeholder='Message' rows="6"
-                        class="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-blue-500"></textarea>
+                        className="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-blue-500"></textarea>
                     <button type='button'
-                        class="text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6">Send</button>
+                        className="text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6">Send</button>
                 </form>
             </div>
         </div>
